@@ -12,7 +12,7 @@
 #    The essential reference for computational positional astronomy.
 #
 
-from .astro import *
+from astro import *
 
 
 J0000 = 1721424.5  # Julian date of Gregorian epoch: 0000-01-01
@@ -109,6 +109,10 @@ Weekdays = (
     "Friday",
     "Saturday",
 )
+
+
+def apply(func, args, kwargs=None):
+    return func(*args) if kwargs is None else func(*args, **kwargs)
 
 
 def leap_gregorian(year):
