@@ -6,4 +6,4 @@ Archived site linked to the code: [arch:holidays.mailzilla.net](https://web.arch
 Fixed version of Python Date Utilities originally by Phil Schwartz
 
 
-[Original project README](README)
+[Original project README](ORIG_README.md)
